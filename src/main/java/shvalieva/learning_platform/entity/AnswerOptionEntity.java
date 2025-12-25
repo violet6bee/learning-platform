@@ -23,12 +23,12 @@ public class AnswerOptionEntity {
     @Column(name = "text", nullable = false)
     private String text;
 
-    @Column(name = "isCorrect", nullable = false)
-    private boolean isCorrect;
+    @Column(name = "is_correct", nullable = false)
+    private boolean correct;
 
-    public AnswerOptionEntity(QuestionEntity question, String text, boolean isCorrect) {
+    public AnswerOptionEntity(QuestionEntity question, String text, boolean correct) {
         this.question = question;
         this.text = text;
-        this.isCorrect = isCorrect;
+        this.correct = correct;
     }
 }

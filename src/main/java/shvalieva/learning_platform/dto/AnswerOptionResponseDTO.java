@@ -7,6 +7,7 @@ import lombok.Setter;
 @Setter
 public class AnswerOptionResponseDTO {
     private Long id;
+    private Long questionId;
     private String text;
     private boolean isCorrect;
 }
