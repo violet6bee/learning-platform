@@ -1,3 +1,4 @@
+
 # Learning Platform
 
 Учебный проект на **Java + Spring Boot**, реализующий backend для платформы онлайн-обучения.  
@@ -39,13 +40,13 @@ https://github.com/violet6bee/learning-platform
 ---
 
 ## Архитектура проекта
-
+```
 Controller → Service → Repository → Database
 ↓
 DTO
 ↓
 Mapper
-
+```
 
 ### Основные слои:
 
@@ -61,6 +62,7 @@ Mapper
 
 ## Структура проекта
 
+```
 learning-platform/
 ├── src/
 │ ├── main/
@@ -83,7 +85,7 @@ learning-platform/
 ├── docker-compose.yml
 ├── pom.xml
 └── README.md
-
+```
 ---
 
 ## Сборка и запуск
@@ -123,7 +125,7 @@ src/main/resources/data.sql
 ---
 
 ## Реализованные возможности
-
+```
 CRUD для всех основных сущностей
 Прохождение тестов с подсчётом результата
 Проверка правильных ответов
@@ -133,4 +135,4 @@ DTO + MapStruct
 Unit-тесты сервисного слоя
 Профили Spring (dev / testh2)
 Docker-окружение
-
+```
